@@ -140,6 +140,7 @@ header {
 #movies .col-lg-3:last-child img {
     border-right: none;
 }
+/*** FINE ribbon ***/
 
 @media screen and (max-width: 1440px) {
     #jumbo {
@@ -163,7 +164,9 @@ header {
         padding-right: 0;
         padding-bottom: 10px;
     }
-
+    .watchman {
+        display: none;
+    }
     #jumbo-img {
         height: 600px;
         width: 100%;
@@ -204,6 +207,12 @@ header {
 
     #jumbo-text {
         top: 390px;
+    }
+    .col-smd-6 {
+        width: 50%;
+    }
+    .bohemian {
+        display: none;
     }
 }
 
@@ -247,5 +256,11 @@ header {
 
     #ribbon .button {
         margin-left: 0;
+    }
+    .serietv {
+        display: none;
+    }
+    .factor {
+        width: 380px;
     }
 }

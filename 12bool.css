@@ -116,6 +116,10 @@
     .container {
         width: 950px;
     }
+    .col-md-4 {
+        width: calc(100% / 3);
+    }
+
 }
 
 @media screen and (max-width:992px) {
