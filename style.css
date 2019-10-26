@@ -141,7 +141,40 @@ header {
     border-right: none;
 }
 /*** FINE ribbon ***/
+/* INIZIO INFO */
+#info {
+    background-color: #022B42;
+}
+.info-top {
+    text-align: center;
+}
+.info-top h2 {
+    font-size: 36px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    color: white;
+}
+.info-column {
+    text-align: center;
+    color: white;
+    margin-left: 7%;
+}
+.info-column img {
+    width: 90px;
+    height: 90px;
+}
+.info-column h2 {
+    margin: 20px 0;
+    font: 24px;
+}
+.info-column p {
+    font: 16px;
+    margin-bottom: 70px;
+}
 
+
+
+/* FINE INFO */
 @media screen and (max-width: 1440px) {
     #jumbo {
         height: 650px;
@@ -214,9 +247,10 @@ header {
     .bohemian {
         display: none;
     }
+
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 
     header {
         height: 50px;
@@ -262,6 +296,9 @@ header {
     }
     .factor, .factor img {
         width: 100%;
-
+    }
+    .info-column {
+        float: none;
+        margin: 0 auto;
     }
 }
