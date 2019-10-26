@@ -260,7 +260,8 @@ header {
     .serietv {
         display: none;
     }
-    .factor {
-        width: 380px;
+    .factor, .factor img {
+        width: 100%;
+
     }
 }
