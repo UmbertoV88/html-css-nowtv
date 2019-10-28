@@ -193,7 +193,13 @@ header {
     padding-top: 30px;
 }
 
-
+#sport button {
+    padding: 13px 20px;
+    font-size: 14px;
+    max-width: 230px;
+    width: 100%;
+    cursor: pointer;
+}
 
 /* FINE SPORT */
 @media screen and (max-width: 1440px) {
