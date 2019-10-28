@@ -131,9 +131,12 @@ header {
     margin-left: 20px;
     font-weight: normal;
 }
-
+#movies {
+    background-color: #022B42;
+}
 #movies img {
     max-width: 100%;
+    display: block;
     border-right: 5px solid white;
 }
 
@@ -265,8 +268,14 @@ footer {
 }
 .culumn li {
     padding-bottom: 20px;
+}
+.culumn i {
+    font-size: 32px;
+    color: white;
+    padding: 0 5px;
 
 }
+
 /* FINE FOOTER */
 @media screen and (max-width: 1440px) {
     #jumbo {
@@ -293,6 +302,11 @@ footer {
     .watchman {
         display: none;
     }
+    #movies .bohemian img {
+        border: none;
+    }
+
+
     #jumbo-img {
         height: 600px;
         width: 100%;
@@ -340,6 +354,9 @@ footer {
     .bohemian {
         display: none;
     }
+    #movies .serietv img {
+        border: none;
+    }
 
 }
 
@@ -386,6 +403,9 @@ footer {
     }
     .serietv {
         display: none;
+    }
+    #movies .factor img {
+        border: none;
     }
     .factor, .factor img {
         width: 100%;
