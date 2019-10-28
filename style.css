@@ -236,6 +236,38 @@ header {
     cursor: pointer;
 }
 /* FINE SMART STICK */
+
+/* INIZIO FOOTER */
+
+footer {
+    background-color: black;
+    height: 500px;
+}
+
+.culumn {
+    float: left;
+    height: 500px;
+    width: 20%;
+    /* background-color: white; */
+    border-right: 1px solid black;
+    padding-top: 30px;
+    margin-right: 20px;
+}
+
+
+.now-logo img {
+    width: 120px;
+}
+
+.culumn a {
+    color: white;
+    text-decoration: none;
+}
+.culumn li {
+    padding-bottom: 20px;
+
+}
+/* FINE FOOTER */
 @media screen and (max-width: 1440px) {
     #jumbo {
         height: 650px;
